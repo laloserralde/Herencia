@@ -10,22 +10,16 @@ import java.util.ArrayList;
  */
 public class ClaseHija_Suma extends ClasePadre {
 
-    public void sumar (ArrayList<Integer> list){
 
-        for(Integer e : list){
-            resultado += e.intValue();
-        }
-        System.out.println("El resultado de la suma de los" +
-                " numeros ingresados es de " + resultado);
-
-
+    public double sumar(double number1, double number2) {
+        resultado = number1 + number2;
+        return resultado;
     }
 
 
 
-    /* public void Sumar(){
-
-        resultado = valor1 + valor2;
-    } */
-
 }
+
+
+
+

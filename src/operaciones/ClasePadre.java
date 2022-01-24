@@ -8,7 +8,7 @@ public class ClasePadre {
      */
     protected int valor1;
     protected int valor2;
-    protected int resultado;
+    protected double resultado;
 
     Scanner entrada = new Scanner(System.in);
 
